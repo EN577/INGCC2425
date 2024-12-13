@@ -16,11 +16,11 @@
             //Leo el telegrama
             textoTelegrama = txtTelegrama.Text;
             // telegrama urgente?
-            if (chkUrgente.Checked)
+            if (radioButtonUr.Checked)
             {
                 tipoTelegrama = 'u';
             }
-            else
+            else if (radioButtonOr.Checked)
             {
                 tipoTelegrama = 'o';
             }
